@@ -12,7 +12,7 @@ Run `yarn test` to execute the test suite.
 
 ## Usage
 
-Install this in another project via `yarn add @foxswap/lib`
+Install this in another project via `yarn add @oneverse/lib`
 
 Then import the contracts via:
 
