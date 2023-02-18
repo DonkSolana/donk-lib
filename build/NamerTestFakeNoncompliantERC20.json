@@ -1,0 +1,63 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "name_",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "symbol_",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "symbol",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "608060405234801561001057600080fd5b506040516100ea3803806100ea8339818101604052604081101561003357600080fd5b5080516020909101516000919091556001556097806100536000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806306fdde0314603757806395d89b4114604f575b600080fd5b603d6055565b60408051918252519081900360200190f35b603d605b565b60005481565b6001548156fea2646970667358221220bd5a3b1e498c60c8826d239316ae902357d0d11b32eb315c23a10dc26dbd26ec64736f6c634300060c0033",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x40 MLOAD PUSH2 0xEA CODESIZE SUB DUP1 PUSH2 0xEA DUP4 CODECOPY DUP2 DUP2 ADD PUSH1 0x40 MSTORE PUSH1 0x40 DUP2 LT ISZERO PUSH2 0x33 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP DUP1 MLOAD PUSH1 0x20 SWAP1 SWAP2 ADD MLOAD PUSH1 0x0 SWAP2 SWAP1 SWAP2 SSTORE PUSH1 0x1 SSTORE PUSH1 0x97 DUP1 PUSH2 0x53 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x32 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x6FDDE03 EQ PUSH1 0x37 JUMPI DUP1 PUSH4 0x95D89B41 EQ PUSH1 0x4F JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3D PUSH1 0x55 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x3D PUSH1 0x5B JUMP JUMPDEST PUSH1 0x0 SLOAD DUP2 JUMP JUMPDEST PUSH1 0x1 SLOAD DUP2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xBD GAS EXTCODESIZE 0x1E 0x49 DUP13 PUSH1 0xC8 DUP3 PUSH14 0x239316AE902357D0D11B32EB315C 0x23 LOG1 0xD 0xC2 PUSH14 0xBD26EC64736F6C634300060C0033 ",
+      "sourceMap": "851:207:15:-:0;;;950:106;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;950:106:15;;;;;;;1011:4;:12;;;;1033:6;:16;851:207;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "6080604052348015600f57600080fd5b506004361060325760003560e01c806306fdde0314603757806395d89b4114604f575b600080fd5b603d6055565b60408051918252519081900360200190f35b603d605b565b60005481565b6001548156fea2646970667358221220bd5a3b1e498c60c8826d239316ae902357d0d11b32eb315c23a10dc26dbd26ec64736f6c634300060c0033",
+      "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x32 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x6FDDE03 EQ PUSH1 0x37 JUMPI DUP1 PUSH4 0x95D89B41 EQ PUSH1 0x4F JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3D PUSH1 0x55 JUMP JUMPDEST PUSH1 0x40 DUP1 MLOAD SWAP2 DUP3 MSTORE MLOAD SWAP1 DUP2 SWAP1 SUB PUSH1 0x20 ADD SWAP1 RETURN JUMPDEST PUSH1 0x3D PUSH1 0x5B JUMP JUMPDEST PUSH1 0x0 SLOAD DUP2 JUMP JUMPDEST PUSH1 0x1 SLOAD DUP2 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xBD GAS EXTCODESIZE 0x1E 0x49 DUP13 PUSH1 0xC8 DUP3 PUSH14 0x239316AE902357D0D11B32EB315C 0x23 LOG1 0xD 0xC2 PUSH14 0xBD26EC64736F6C634300060C0033 ",
+      "sourceMap": "851:207:15:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;897:19;;;:::i;:::-;;;;;;;;;;;;;;;;922:21;;;:::i;897:19::-;;;;:::o;922:21::-;;;;:::o"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"name_\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"symbol_\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/test/SafeERC20NamerTest.sol\":\"NamerTestFakeNoncompliantERC20\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/libraries/AddressStringUtil.sol\":{\"keccak256\":\"0x1b97c78fc8ffbc4d9cf39e38a90f39b000e30802407f57c19701da67a115829c\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://86cb60316d4e46f5c07b43bf9e134bb908729abd71461acf6624d0ed2e5c7eb2\",\"dweb:/ipfs/QmZwBtxd8RKiQ1pmpuUieYCRefZBcHLTG8iJWJSntiob3C\"]},\"contracts/libraries/SafeERC20Namer.sol\":{\"keccak256\":\"0xd4d1d01e82d3cefc7b4c915fc970f70c1eb83ca2d7ce109164ebc60e30baea5a\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://6ddac85505104c0fb164eae955c83d45d02f2df3e78e8bd2b86b53ba0c58dfad\",\"dweb:/ipfs/QmQQCUwJtfFkNM3AjELyT97a6Hi1oaowz585T6EHpa8T1T\"]},\"contracts/test/SafeERC20NamerTest.sol\":{\"keccak256\":\"0x6e45e606b8e43aa2a639e9486dfb9f2686bad7d2163dbaaf18af3390ed5eb016\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://1c3b4deb0bd3031324e31509a07903f845b668d8bd9ee39b7e36b662793cafa2\",\"dweb:/ipfs/QmZSxNmqimAfGHzeDUKDYZcPLUNoyjkRPMghq9KtKJAUEi\"]}},\"version\":1}",
+  "bytecode": "608060405234801561001057600080fd5b506040516100ea3803806100ea8339818101604052604081101561003357600080fd5b5080516020909101516000919091556001556097806100536000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806306fdde0314603757806395d89b4114604f575b600080fd5b603d6055565b60408051918252519081900360200190f35b603d605b565b60005481565b6001548156fea2646970667358221220bd5a3b1e498c60c8826d239316ae902357d0d11b32eb315c23a10dc26dbd26ec64736f6c634300060c0033"
+}
