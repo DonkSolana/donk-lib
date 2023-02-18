@@ -1,18 +1,15 @@
 {
-  "name": "@foxswap/lib",
+  "name": "@oneverseswap/lib",
   "version": "1.0.0",
-  "description": "📖 Solidity libraries that are shared across FoxSwap contracts",
+  "description": "📖 Solidity libraries that are shared across oneverseSwap contracts",
   "files": [
     "contracts",
     "!contracts/test"
   ],
-  "homepage": "https://farmersonly.fi",
+  "homepage": "https://oneverse.one/",
   "repository": {
-    "url": "https://github.com/FarmersOnlyFi/foxswap-lib",
+    "url": "https://github.com/willcordeiro/oneverse-lib",
     "type": "git"
-  },
-  "bugs": {
-    "url": "https://github.com/FarmersOnlyFi/foxswap-lib/issues"
   },
   "engines": {
     "node": ">=10"
