@@ -1,14 +1,13 @@
 {
-  "name": "@oneverseswap/lib",
+  "name": "@donk/lib",
   "version": "1.0.1",
-  "description": "📖 Solidity libraries that are shared across oneverseSwap contracts",
+  "description": "📖 Solidity libraries that are shared across Donk contracts",
   "files": [
     "contracts",
     "!contracts/test"
   ],
-  "homepage": "https://oneverse.one/",
   "repository": {
-    "url": "git+https://github.com/willcordeiro/oneverse-lib.git",
+    "url": "git+https://github.com/DonkSolana/donk-lib.git",
     "type": "git"
   },
   "engines": {
