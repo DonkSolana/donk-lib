@@ -1,6 +1,6 @@
 {
-  "name": "@donk/lib",
-  "version": "1.0.1",
+  "name": "@donkswap/lib",
+  "version": "1.0.0",
   "description": "📖 Solidity libraries that are shared across Donk contracts",
   "files": [
     "contracts",
